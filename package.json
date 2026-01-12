@@ -1,0 +1,24 @@
+{
+  "name": "azure-nodejs-webapp",
+  "version": "1.0.0",
+  "description": "Node.js app deployed to Azure with GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["azure", "nodejs", "github-actions"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
